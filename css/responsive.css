@@ -1,0 +1,146 @@
+﻿@media(max-width:800px){.topbar{height:70px;
+  padding:0 1.5rem}
+.topbar__note{display:none}
+.scene{min-height:calc(100svh - 132px);
+  padding:3.5rem 2rem}
+.scene--intro{align-items:start;
+  padding-top:9vh}
+.intro-portrait{width:40%;
+  height:53%;
+  right:8%;
+  top:55%}
+.intro-copy{max-width:63%}
+.intro-copy h1{font-size:clamp(2.5rem,7vw,4.3rem)}
+.intro-lede{font-size:.88rem}
+.intro-footnote{margin-top:2.2rem}
+.scene--celebrate{grid-template-columns:.8fr 1fr;
+  gap:2.2rem}
+.celebrate-photo{min-height:300px;
+  height:48vh}
+.celebrate-copy h2{font-size:clamp(2.4rem,6vw,3.8rem)}
+.wish-grid{grid-template-columns:repeat(2,1fr);
+  max-width:620px}
+.wish-card{min-height:130px}
+.scene--letter{grid-template-columns:.8fr 1.2fr;
+  gap:2rem}
+.letter-paper{min-height:440px;
+  padding:1.5rem}
+.letter-body{font-size:.82rem}
+.scene-count{bottom:1.25rem}
+.journey-nav{height:62px}
+}
+
+@media(max-width:560px){.topbar{height:64px;
+  padding:0 1.1rem}
+.music-toggle{padding:.48rem .68rem}
+.scene{min-height:calc(100svh - 122px);
+  padding:3.25rem 1.35rem}
+.scene--intro{display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:flex-start;
+  padding-top:7vh}
+.intro-copy{max-width:100%;
+  position:relative;
+  z-index:1}
+.intro-copy h1{font-size:clamp(2.7rem,13vw,4.2rem)}
+.intro-lede{max-width:290px;
+  margin:1rem 0 1.25rem;
+  font-size:.82rem}
+.desktop-only{display:none}
+.intro-footnote{margin-top:1.35rem}
+.intro-portrait{position:relative;
+  right:auto;
+  top:auto;
+  transform:none;
+  align-self:center;
+  width:min(68%,250px);
+  height:min(34vh,290px);
+  margin:1.2rem auto 1rem}
+.portrait-frame{padding:7px}
+.portrait-caption{font-size:.43rem;
+  bottom:13px;
+  left:13px}
+.scene-count{right:1.25rem;
+  bottom:.8rem;
+  font-size:.59rem}
+.scene-count i{width:28px}
+.scene--celebrate{display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  gap:2rem;
+  padding-top:2.5rem;
+  padding-bottom:3.6rem}
+.celebrate-photo{width:74%;
+  height:35vh;
+  min-height:230px;
+  max-height:310px;
+  align-self:flex-start;
+  margin-left:1rem}
+.celebrate-copy{padding-left:1rem}
+.celebrate-copy .eyebrow{margin-bottom:.8rem}
+.celebrate-copy h2{font-size:clamp(2.5rem,12vw,3.6rem)}
+.celebrate-copy .body-copy{font-size:.87rem;
+  line-height:1.7;
+  margin:1rem 0 1.3rem}
+.scene--wishes{padding-top:3rem;
+  padding-bottom:3.5rem}
+.section-heading h2{font-size:clamp(1.9rem,9vw,2.7rem)}
+.section-heading .body-copy{font-size:.78rem;
+  margin:.7rem auto 1.4rem}
+.wish-grid{gap:8px}
+.wish-card{min-height:116px;
+  padding:.9rem}
+.wish-card[aria-pressed=true]{min-height:148px}
+.wish-title{font-size:1.05rem}
+.wish-detail{font-size:.7rem}
+.scene--letter{display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  gap:2rem;
+  padding-top:3rem;
+  padding-bottom:3.5rem}
+.letter-side h2{font-size:clamp(2.7rem,12vw,3.7rem)}
+.letter-side .eyebrow{margin-bottom:1rem}
+.letter-side .body-copy{font-size:.84rem;
+  margin:.8rem 0 1.2rem}
+.letter-paper{align-self:center;
+  width:94%;
+  min-height:400px;
+  padding:1.4rem;
+  transform:rotate(.5deg)}
+.letter-inner{max-width:330px}
+.letter-body{font-size:.79rem;
+  line-height:1.65}
+.letter-inner h3{font-size:1.4rem}
+.letter-kicker{font-size:.45rem}
+.scene--final{justify-content:center}
+.final-photo{inset:17% 4%;
+  opacity:.19}
+.final-content .eyebrow{font-size:.57rem}
+.final-content h2{font-size:clamp(2.6rem,12vw,4rem)}
+.final-message{font-size:.88rem}
+.final-signoff{margin-top:2rem}
+.journey-nav{gap:1rem;
+  height:58px}
+.progress-dots{gap:.42rem}
+}
+
+@media(max-height:680px) and (min-width:561px){.scene{min-height:calc(100svh - 120px);
+  padding-top:2rem;
+  padding-bottom:2rem}
+.intro-portrait{height:65%}
+.scene--wishes{padding-top:2rem;
+  padding-bottom:3rem}
+.wish-card{min-height:120px}
+.letter-paper{min-height:390px}
+.scene--letter{gap:3rem}
+}
+
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;
+  animation-duration:.01ms!important;
+  animation-iteration-count:1!important;
+  transition-duration:.01ms!important}
+}
+
+
